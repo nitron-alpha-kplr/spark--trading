@@ -11,7 +11,7 @@ Les différent MARKDOWN seront les suivants :
 4) On se familiarise aux manipulation des spark stream en "jouant avec les worshop de databricks spark stream
 5)on cherche l'url, le token pour initaliser un flux 
 Comment récupérér un stream depuis une API rest?
-6/ON TESTE lesapi pour trouver le flux qui nous interre
+6/ON TESTE les api pour trouver le flux qui nous interresse
 ex"
 import requests
 
