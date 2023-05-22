@@ -9,7 +9,8 @@ Les différent MARKDOWN seront les suivants :
 2) Récupération de la clés sur Alpha Vantage :
 3) Création d'un dossier "Projet_SPARK dans DataBricks afin d'y enregistrer les futurs notebooks
 4) On se familiarise aux manipulation des spark stream en "jouant avec les worshop de databricks spark stream
-5)on cherche l'url, le token pour initaliser un flux
+5)on cherche l'url, le token pour initaliser un flux 
+Comment récupérér un stream depuis une API rest?
 6/ON TESTE lesapi pour trouver le flux qui nous interre
 ex"
 import requests
