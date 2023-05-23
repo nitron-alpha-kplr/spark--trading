@@ -41,5 +41,5 @@ créer des listes de streamall(tickerlist) /des dictionnaires de list/Une list d
     !point super important SPARK recoit et lit d'un fichier non distribué de par sa nature distribue il ne va pas ecrire à un seul endroit !
     Delta (repertoire native) est activé par defauts 
     il va falloir structurér le dataframe (struct) ,il faut un schema, l implementer, faire un display le mapper avec une viz et ensuite 
-checkpoint pour nonner les fichier gerer en interne on ecoute un repertoire en mettant en place des strategies de lecture.
+checkpoint pour nommer les fichier? gerer en interne, on ecoute un repertoire en mettant en place des strategies de lecture.
 
