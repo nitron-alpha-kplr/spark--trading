@@ -21,3 +21,5 @@ r = requests.get(url)
 data = r.json()
 
 print(data)"
+
+Il faut hierachiser son étude de projet et construire brique par brique chaque etapes
