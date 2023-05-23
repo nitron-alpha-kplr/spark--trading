@@ -33,5 +33,13 @@ SI on veut crééer un "indice synthetique" on utilise par exemple une moyenne (
 on va crééer des string pour utiliser nos tickers on va faire la "jointure" sur le temps 
 les notions "eventtime et reveal time " c'est l'exchange qui l'a pour avoir l'info en temps reel.
 par exemple ecouter 5mn et faire des jointures internes puis on réecoute les flux (on peut merger les flux) puis on fait une jointure avec un id de machine par exemple.
+Le fait d'avoir un fichier par valeur on peut avoir un visuel sur chaque flux et on pourra avoir envi d'automatiser l'application
+faire une boucle defstream-data
+créer des listes de streamall(tickerlist) /des dictionnaires de list/Une list d'objet
+    for ticker in tickerlist
+    je crée mon dictionnaire 
+    !point super important SPARK recoit et lit d'un fichier non distribué de par sa nature distribue il ne va pas ecrire à un seul endroit !
+    Delta (repertoire native) est activé par defauts 
+    il va falloir structuré le dataframe (struct)
 
 
