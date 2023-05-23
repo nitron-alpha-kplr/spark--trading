@@ -29,8 +29,9 @@ je scrute chaque repertoire de fichier que je veux construire dans databricks
 l'idée cest de voir si je suis capable de faire fonctionner un stream correctement
 J Y vais progressivement et je cherche a connecter mon stream
 
-SI on veut crééer in "indice synthetique" on utilise par exemple une moyenne (mean)
+SI on veut crééer un "indice synthetique" on utilise par exemple une moyenne (mean)
 on va crééer des string pour utiliser nos tickers on va faire la "jointure" sur le temps 
 les notions "eventtime et reveal time " c'est l'exchange qui l'a pour avoir l'info en temps reel.
-par exemple ecouter 5mn et faire des jointures internes puis on réecoute les flux (on peut merger les flux) puis on fait une jointure avec un id de machine
+par exemple ecouter 5mn et faire des jointures internes puis on réecoute les flux (on peut merger les flux) puis on fait une jointure avec un id de machine par exemple.
+
 
