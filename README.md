@@ -23,3 +23,6 @@ data = r.json()
 print(data)"
 
 Il faut hierachiser son étude de projet et construire brique par brique chaque etapes
+je scrute chaque repertoire de fichier que je veux construire dans databricks
+l'idée cest de voir si je suis capable de faire fonctionner un stream correctement
+
