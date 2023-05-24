@@ -64,3 +64,6 @@ il faut vraiment comprendre DF1  +  spark.read. csv(---).FILTER().SORT(         
  En ce qui concerne les formats a utliser a savoir le CSV COMMAT SEPARATE VALUE txt / ON distincte le code ASCII AUQUEL ON ASSIGNE un binaire a chaque caractere - ainsi on deoule un long ruban - ce modéle n'est pas optmiser pour lire une infos-ce nest pas un format dense- si je fais par exemple un feature selection je suis obligé d'aller chercher l info une a une.
  Ainsi PARQUET correspond beaucoup mieux comme format a utiliser binaire compact structuré snapy et indexé stockage colonaire.
  "COLUMNAR STORAGE" explique parfaitement le concept du format parquet 
+ 
+ EN ce qui concerne le pacqkage DELTA avec un folder des magadata et snapy repertoire compresé en parquet
+ pip install delta lake
