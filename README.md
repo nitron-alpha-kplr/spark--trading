@@ -44,3 +44,12 @@ créer des listes de streamall(tickerlist) /des dictionnaires de list/Une list d
 checkpoint pour nommer les fichier? gerer en interne, on ecoute un repertoire en mettant en place des strategies de lecture.
 
 IL faut voir SPARK comme un "moteur". UN JOB esr un calcul parralele et chaque STAGE est une sequence de tache qui peut etre faite en parralele sans avoir a regroupé les données entre ellles. EX: je fais un FILTER la task cest la plus petite unite de travail
+
+il faut vraiment comprendre DF1  +  spark.read. csv(---).FILTER().SORT(                              IMPLICIT
+                                                             DF    DF        
+                                                             
+                        DF1 = [""""]
+                        df2 = df1.FILTYER()
+                        df3 = df2.SORT()                                  EXPLICIT
+                        
+                        VOIR NOTIONS DE LINEAGE MAGIE DE LA PROGRAMMATION ORIENTEE OBJET
