@@ -43,3 +43,4 @@ créer des listes de streamall(tickerlist) /des dictionnaires de list/Une list d
     il va falloir structurér le dataframe (struct) ,il faut un schema, l implementer, faire un display le mapper avec une viz et ensuite 
 checkpoint pour nommer les fichier? gerer en interne, on ecoute un repertoire en mettant en place des strategies de lecture.
 
+IL faut voir SPARK comme un "moteur". UN JOB esr un calcul parralele et chaque STAGE est une sequence de tache qui peut etre faite en parralele sans avoir a regroupé les données entre ellles. EX: je fais un FILTER la task cest la plus petite unite de travail
