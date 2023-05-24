@@ -53,3 +53,9 @@ il faut vraiment comprendre DF1  +  spark.read. csv(---).FILTER().SORT(         
                         df3 = df2.SORT()                                  EXPLICIT
                         
                         VOIR NOTIONS DE LINEAGE MAGIE DE LA PROGRAMMATION ORIENTEE OBJET
+                        
+                        notions SPARK STAND ALONE avec GITPOD SIMPLENODE START SMELL/SCALITER
+                        AFFICHAGE REAL TIME DISPLAY
+                        GENERATION DE SIGNAUX PROPRES
+                        DIFFERENTES TIOMES AGGREGATIONS (TIME WINDOW)
+                        streamjoin (stream/STATIC/BATCH)
